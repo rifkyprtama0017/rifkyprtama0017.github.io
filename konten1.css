@@ -1,0 +1,67 @@
+/* ========================================= konten 1 ========================================= */
+
+#ka1{
+	width:100%;
+	margin-top:0px;
+	height:30vw;
+	object-fit:cover;
+	object-position: 0vw -21vw;
+	
+	
+}
+
+#bg1{
+	margin-top:1.4vw;
+	margin-left:1vw;
+	color:black;
+	position:absolute;
+	top:0;
+	display:grid;
+	
+	padding:0.5vw;
+	grid-template-columns: auto auto;
+	width:40%;
+	box-sizing: border-box;
+	column-gap:1vw;
+	row-gap:4.5vw;
+	grid-template-columns:auto;
+}
+
+#bg1 div{
+	
+	font-size:1vw;
+	text-align:center;
+	
+}
+
+#bg1 #item1 h2{
+	margin-top:0px;
+	font-size:3vw;
+	
+}
+#bg1 #item1 p{
+	font-size:1vw;	
+}
+
+#bg1 #item1 p{
+	margin:0vw 2vw;
+}
+
+#bg1 a {
+	letter-spacing:0.2vw;
+	border:0.2vw solid black;
+	text-decoration: none;
+	color:black;
+	transition-duration: 0.4s;
+	padding:1vw 2vw;
+	margin:0px 4vw;
+}
+
+#bg1 a:hover{
+	color:white;
+	background-color:black;
+}
+
+#gbr1{
+	position:relative;
+}

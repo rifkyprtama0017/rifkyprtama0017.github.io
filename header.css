@@ -1,0 +1,56 @@
+/* ========================================= header ========================================= */
+
+#header{
+	display:flex;
+	max-width:100%;
+	background-color:white;
+	align-items:center;
+	justify-content: space-between;
+	padding:0vw 2vw;
+	
+}
+
+#header p, #header img, #header a {
+	padding:1vw;
+	margin:0.6vw 1vw;
+}
+
+#header p{ 
+	height:2vw;
+	border:1px solid #332D56;
+	letter-spacing: 1vw;
+	text-align:center;
+	
+}
+
+#header img{
+	height:3vw;
+	
+}
+
+#header a{
+	display:flex;
+	align-items:center;
+	border:0.2vw solid #332D56;
+	text-decoration: none;
+	color:black;
+	transition-duration: 0.4s;
+	padding:0.6vw 0.8vw;
+}
+
+#header a:hover{
+	color:white;
+	background-color:black;
+}
+
+#header a .material-symbols-outlined{
+	
+	font-size:1.5vw;
+}
+
+#header a #rumah{
+	text-align:right;
+	font-size:0.8vw;
+	margin-left:0.8vw;
+	letter-spacing:0.2vw;
+}

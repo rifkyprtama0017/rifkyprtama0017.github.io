@@ -1,0 +1,59 @@
+.konten3{
+	width:100%;
+	background-image:url("gambar/ka2.jpg");
+	background-position: 0% 40%;
+	background-size:50%;
+	background-repeat:no-repeat;
+	padding:0vw 0vw;
+	box-sizing:border-box;
+	margin-top:3vw;
+}
+
+#konten3a{
+	display:flex;
+	padding:10vw 1vw;
+	background-image: linear-gradient(to right, rgba(255,0,0,0) 0%, rgba(0,0,0,1) 48%);
+	flex-wrap:nowrap;
+	justify-content: center;
+	flex-direction: row;
+	padding-left:40%;
+	text-align:center;	
+}
+
+
+
+
+div#konten3a  #item1, #konten3a  #item2, #konten3a  #item3{
+	width:30%;
+	margin:2vw;
+	padding:1.5vw;
+	border:0.3vw solid white;
+}
+
+
+
+#konten3a .material-symbols-outlined{
+	font-size:2vw;
+	
+}
+
+#konten3a h2{
+	font-size:1.5vw;
+}
+
+#konten3a #item1 .material-symbols-outlined{
+	color:green;
+}
+
+#konten3a #item2 .material-symbols-outlined{
+	color:red;
+}
+
+#konten3a #item3 .material-symbols-outlined{
+	color:yellow;
+}
+
+#konten3a p, #konten3a h2{
+	color:white;
+	
+}

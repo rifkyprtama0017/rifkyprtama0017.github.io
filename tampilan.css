@@ -1,0 +1,44 @@
+body{
+	background-color:white;
+	margin:0px;
+}
+
+
+
+/* ========================================= tentang ========================================= */
+
+#ttgsya{
+	font-size:2vw;
+	
+	max-width:30%;
+	text-align:center;
+	margin:4vw auto 0vw auto;
+	padding-bottom:1vw;
+
+	
+}
+
+
+::-webkit-scrollbar {
+  
+  width:0.5vw;
+}
+
+::-webkit-scrollbar-track {
+	display:none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: yellow;
+  
+}
+#aku1{
+	width:10%;
+	
+}

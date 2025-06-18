@@ -1,0 +1,74 @@
+/* ========================================= konten 2 ========================================= */
+
+#konten2{
+	display:grid;
+	
+	grid-template-columns: auto auto auto auto;
+	row-gap:0.3vw;
+	column-gap:2vw;
+	padding:4vw 0vw;
+	margin:0.5vw 3vw auto 3vw;
+	
+}
+
+#konten2 div{
+	text-align:center;
+}
+
+#konten2 div .material-symbols-outlined{
+	font-size:4vw;
+	display: flex;
+	align-items: center;     /* vertikal */
+	justify-content: center; /* horizontal */
+	text-align: center;
+	color:white;
+	width:6vw;
+	height:6vw;
+	margin:auto;
+	border-radius: 50%;
+	
+}
+
+#konten2 #item1 .material-symbols-outlined{
+	background-image:url("gambar/twili.png");
+	background-size:10vw;
+	background-repeat:no-repeat;
+}
+
+#konten2 #item2 .material-symbols-outlined{
+	background-image:url("gambar/naruto.png");
+	background-size:9vw;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#konten2 #item3 .material-symbols-outlined{
+	background-image:url("gambar/elsa.png");
+	background-size:6vw;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#konten2 #item4 .material-symbols-outlined{
+	background-image:url("gambar/thomas.png");
+	background-size:8vw;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#konten2 div#item5, #konten2 div#item6, #konten2 div#item7, #konten2 div#item8{
+	font-size:0.8vw;
+	
+	padding:0vw 1vw;
+	
+}
+
+#konten2 div#itemA, #konten2 div#itemB, #konten2 div#itemC, #konten2 div#itemD{
+	font-size:1.6vw;
+	
+	padding-bottom:0.6vw;
+	font-weight:bold;
+	margin:2vw;
+	
+	
+}
