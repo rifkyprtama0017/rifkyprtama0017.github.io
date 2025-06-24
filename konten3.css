@@ -38,7 +38,7 @@ div#konten3a  #item1, #konten3a  #item2, #konten3a  #item3{
 }
 
 #konten3a h2{
-	font-size:1.5vw;
+	font-size:2vw;
 }
 
 #konten3a #item1 .material-symbols-outlined{
@@ -56,4 +56,9 @@ div#konten3a  #item1, #konten3a  #item2, #konten3a  #item3{
 #konten3a p, #konten3a h2{
 	color:white;
 	
+}
+
+#konten3a p{
+	color:white;
+	font-size:1vw;
 }
